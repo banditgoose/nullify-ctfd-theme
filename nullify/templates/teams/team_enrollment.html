@@ -14,7 +14,7 @@
 			<div class="col-md-6 offset-md-3 text-center">
 				<p>Welcome to {{ Configs.ctf_name }}!</p>
 				<p>
-					In order to participate you must either join or create a team.
+					In order to participate you must join your university's team. Ask your team representative for the invite link or password.
 				</p>
 			</div>
 		</div>
@@ -36,9 +36,6 @@
 		<div class="row pt-3">
 			<div class="col-md-3 offset-md-3 text-center">
 				<a class="btn btn-primary w-100" href="{{ url_for('teams.join') }}">Join Team</a>
-			</div>
-			<div class="col-md-3 text-center">
-				<a class="btn btn-primary w-100" href="{{ url_for('teams.new') }}">Create Team</a>
 			</div>
 		</div>
 		{% endif %}
